@@ -1,0 +1,207 @@
+@import url('https://fonts.cdnfonts.com/css/ferro-rosso');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+    font-family: 'Ferro Rosso', sans-serif;
+    margin-right: 20px;
+    z-index: 100;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.logo img {
+   width: 140px;
+   margin-top: -10%;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 4rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #ffd900;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.video video {
+    width: 100%;
+    height: 690px
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(248, 245, 245, 0.2);
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.card p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(15, 113, 31);
+    font-style: oblique;
+
+}
+.card p1 {
+    font-size: 15px;
+    color: white;
+}
+
+.card button {
+    background-color: #f90;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+.card button:hover {
+    background-color: #ff0;
+}
+footer {
+    background-color: black;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color:black;
+    padding: 50px 0;
+}
+  
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+  
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+  
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+  
+footer ul li a {
+    color: #333;
+    transition: all 0.3s;
+}
+  
+footer ul li a:hover {
+    color: #666;
+}
+  
+footer hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 40px 0;
+}
+  
+footer p.Direitos {
+    font-size: 14px;
+    color: #777;
+}
+
+.colunas {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 30px;
+}
